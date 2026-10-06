@@ -1,10 +1,13 @@
-﻿public class Program // questa è una classe 
+﻿using BlaisePascal.esempi.Domain;
+
+public class Program // questa è una classe 
 {
     // metodo di entrata per esecuzione del codice 
-    public static void Main()
+    public static void Main(string[] args)
     {
-   
-        Console.WriteLine("Benvenuto nella libreria Easy Class 3E!");
+
+        /*
+         Console.WriteLine("Benvenuto nella libreria Easy Class 3E!");
 
 
         Console.WriteLine("Inserisci il nome del cliente"); // stampo a video il messaggio per chiedere il nome del cliente
@@ -27,5 +30,16 @@
 
         // $ è il carattere speciale per l'interpolazione delle stringhe
         Console.WriteLine($"Il tipo di consegna selezionato è: {tipoConsegna} e il costo tatale è: {costoTotale} ");
+        */
+
+
+
+        Enemy enemy = new Enemy();
+        // enemy.Health = 10; non si puo fare piu perché la proprietà Health è privata
+        enemy.setHealth(1);
+        Console.WriteLine("Enemy health: " + enemy.Health);
+        Console.WriteLine("Enemy is Alive: " + enemy.isAlive());
+
     }
+
 }
