@@ -2,7 +2,7 @@
 {
     
     /// <summary>
-    /// 
+    /// prova
     /// </summary>
     public class Lamp
     {
