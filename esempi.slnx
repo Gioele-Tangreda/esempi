@@ -5,6 +5,6 @@
     <Project Path="src/BlaisePascal.esempi.Domain/BlaisePascal.esempi.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
-    <Project Path="test/TestProject1/BlaisePascal.esempi.DomainTest.csproj" />
+    <Project Path="test/BlaisePascal.Esempi.UnitTest/BlaisePascal.Esempi.UnitTest.csproj" Id="8800b46d-e94d-406f-8f9c-a2c1f7dcbc50" />
   </Folder>
 </Solution>

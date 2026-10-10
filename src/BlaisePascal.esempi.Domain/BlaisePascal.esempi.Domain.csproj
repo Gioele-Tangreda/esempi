@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\test\TestProject1\BlaisePascal.esempi.DomainTest.csproj" />
-  </ItemGroup>
-
 </Project>

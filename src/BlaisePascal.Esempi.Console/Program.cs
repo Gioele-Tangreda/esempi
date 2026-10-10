@@ -36,10 +36,7 @@ public class Program // questa è una classe
 
         Enemy enemy = new Enemy();
         // enemy.Health = 10; non si puo fare piu perché la proprietà Health è privata
-        enemy.setHealth(1);
         Console.WriteLine("Enemy health: " + enemy.Health);
-        Console.WriteLine("Enemy is Alive: " + enemy.isAlive());
-
     }
 
 }
