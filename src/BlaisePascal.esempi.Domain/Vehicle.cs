@@ -81,9 +81,8 @@ namespace pascal.Lesson3E.ClassExample.Domain
         /// <param name="dailyRate"></param>
         /// <param name="fuelLevelPercentage"></param>
         public Vehicle(string licensePlate, int odometerKm,
-            double dailyRate, double fuelLevelPercentage)
-        {
-            LicensePlate = licensePlate;
+            double dailyRate, double fuelLevelPercentage) : this(licensePlate)
+        {   
             OdometerKm = odometerKm; //chiamata al set
             DailyRate = dailyRate;
             FuelLevelPercentage = fuelLevelPercentage;
